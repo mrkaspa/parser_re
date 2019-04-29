@@ -1,0 +1,19 @@
+{
+  "name": "parser_re",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "exec": "bsb -make-world && node src/Main.bs.js",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.3"
+  },
+  "dependencies": {}
+}
