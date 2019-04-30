@@ -1,1 +1,1 @@
-module Parser = Utils_Parser;
+module Parser = UtilsParser;
